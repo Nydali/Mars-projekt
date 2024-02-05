@@ -7,12 +7,13 @@ body{
     height: 100vh;
     background-color: hsl(0, 30%, 45%);
 }
-.info-area {
+.info-area {     
     width: 20%;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column; 
+    /* Making the info section clear to see, easy to find the information in clear boxes with spacing between each pointer */
 }
 
 .planet-container {
@@ -77,3 +78,4 @@ button:active{
     background-color: hsl(35, 100%, 75%);
 }
 
+/* To go over the why and how i've done the CSS the way i have; this is a simple setup with clear bottons and highlighted function bottons (plus, minus, multiplication, dividing and clear are all function bottons in this code). Its important to make it easy to identify such differences for users with poor eyesight or problems reading to quickly and reliably find what they want. */
