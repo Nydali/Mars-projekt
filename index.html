@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weight on different planets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="info-area">
+        <div class="planet-container">
+
+            <div class="planet-info" id="sun">
+                <h2>Sun</h2>
+                <p>The Sun is the star at the center of our solar system. To find your weight on the sun run this function: 27,01*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="mercury">
+                <h2>Mercury</h2>
+                <p>Mercury is the smallest and closest planet to the Sun, with surface temperatures ranging from scorching hot to extremely cold. To find your weight on Mercury run this function: 0,38*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="venus">
+                <h2>Venus</h2>
+                <p>Venus is the second planet from the Sun and is known for its thick, toxic atmosphere composed mainly of carbon dioxide. To find your weight on Venus run this function: 0,91*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="earth">
+                <h2>Earth</h2>
+                <p>Earth is the third planet from the Sun, the only known celestial body to support life, and has a diverse range of ecosystems and climates. To find your weight on Earth run this function: 1*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="moon">
+                <h2>Moon</h2>
+                <p>The Moon is Earth's only natural satellite, influencing tides and serving as a fascinating object for human exploration and observation. To find your weight on the moon run this function: 0,166*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="mars">
+                <h2>Mars</h2>
+                <p>Mars is the fourth planet from the Sun and is known for its reddish appearance due to iron oxide on its surface; it has been a target for exploration to understand its potential for past or present life. To find your weight on Mars run this function: 0,38*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="jupiter">
+                <h2>Jupiter</h2>
+                <p>Jupiter is the largest planet in our solar system, with a strong magnetic field, iconic Great Red Spot, and numerous moons, including the largest moon Ganymede. To find your weight on Jupiter run this function: 2,34*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="saturn">
+                <h2>Saturn</h2>
+                <p>Saturn is the sixth planet from the Sun, recognized for its stunning ring system composed of icy particles and rocky debris. To find your weight on Saturn run this function: 1,06*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="uranus">
+                <h2>Uranus</h2>
+                <p>Uranus is the seventh planet from the Sun and is distinguished by its unique sideways rotation and a composition primarily of hydrogen and helium. To find your weight on Uranus run this function: 0,92*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="neptune">
+                <h2>Neptune</h2>
+                <p>Neptune is the eighth and farthest planet from the Sun, known for its striking blue color, powerful winds, and a system of dark spots reminiscent of Jupiter's Great Red Spot. To find your weight on Neptune run this function: 1,19*x(your weight)</p>
+            </div>
+
+            <div class="planet-info" id="pluto">
+                <h2>Pluto</h2>
+                <p>Pluto, once considered the ninth planet, was reclassified as a dwarf planet in 2006 by the International Astronomical Union. To find your weight on Pluto run this function: 0,06*x(your weight)</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+        </div>
+    </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
